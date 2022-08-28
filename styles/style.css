@@ -76,6 +76,10 @@ main{
     height: 117px;
 }
 
+.blog a{
+    text-decoration: none;
+}
+
 .blog-info{
     margin-left: 16px;
 }
@@ -116,6 +120,7 @@ main{
 .course-info{
     display: flex;
     justify-content: space-between;
+    color: #A2A2A2;
 }
 
 .fa-star{
