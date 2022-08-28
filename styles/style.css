@@ -7,6 +7,8 @@
 body{
     font-family: 'Poppins', sans-serif;
     background-color: #F3F1FF;
+    margin: 0;
+    padding: 0;
 }
 main{
     display: flex;
@@ -21,7 +23,50 @@ main{
     border-radius: 5px;
 }
 
+/* Navigation Menu */
+
+nav{
+    height: 94px;
+    background-color: #562EFF;
+    padding: 26px 285px 17px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo{
+    display: flex;
+    color: white;
+}
+.logo-icon{
+    width: 40px;
+    width: 51px;
+    margin-right: 16px;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu a{
+    color: white;
+    text-decoration: none;
+    margin: 35px 36px;
+}
+
+.profile{
+    width: 56px;
+    height: 56px;
+}
+
 /*Top Players Style */
+.players-blogs{
+    margin-top: 36px;
+}
 
 .section-title{
     color: #562EFF;
