@@ -191,7 +191,9 @@ nav{
 
     nav{
         height: 100%;
-        width: 0%;
+        width: 100%;
+        padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: column;
         justify-content: center;
@@ -203,6 +205,10 @@ nav{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+    }
+
+    .players-blogs{
+        width: 100%;
     }
 
     .section-title{
@@ -229,13 +235,22 @@ nav{
         justify-content: center;
         align-items: center;
     }
+    .blog-info{
+        text-align: center;
+    }
+
     .courses{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        /* display: grid; */
+        /* grid-template-columns: repeat(1, 1fr); */
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     .course{
         display: flex;
         flex-direction: column;
+        width: 30%;
         justify-content: center;
         align-items: center;
     }
